@@ -1,8 +1,8 @@
 # kidi-app
-Android system for the company’s admin and its clients and users which are parents
+Android system for the kidi’s admin and its clients and users which are parents
 
 ## Description:
-this repository contains android app , a Project which I take part in .
+this repository contains android app , a Project which I took part in .
 
 project in collaboration with KidiStartup: build a full-stack Android system for the company’s admin and its clients and users which are parents. The Admin application enables management of courses and course leaders. The parents application allows kids registration to different courses supplied by KidiStartup, and managing it.
 
