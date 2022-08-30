@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#024265</color>
+    <color name="colorPrimaryDark">#024265</color>
+    <color name="colorAccent">#05af9b</color>
+    <color name="grey_blue">#F0F8FF</color>
+    <color name="color_one">#fb7268</color>
+    <color name="color_white">#ededf2</color>
+    <color name="color_two">#E3E0E0</color>
+    <color name="activities_colour">#5377EE</color>
+    <color name="parents_colour">#EDC655</color>
+    <color name="children_colour">#0091FF</color>
+    <color name="defaultChart_colour">#D0DBFF</color>
+    <color name="someColor">#9C27B0</color>
+//yael and feisal colors
+
+
+    <color name="MainBackground">#4E7FE7</color>
+
+    <color name="grey">#d2d2d2</color>
+    <color name="red">#F44336</color>
+    <color name="yellow">#FFC107</color>
+    <color name="orange">#FF5722</color>
+    <color name="green">#4CAF50</color>
+
+    <color name="R">#FFA726</color>
+    <color name="Python">#66BB6A</color>
+    <color name="CPP">#EF5350</color>
+    <color name="Java">#29B6F6</color>
+    <color name="card_1">#A3E4D7</color>
+    <color name="card_2">#F9E77F</color>
+    <color name="card_3">#D7BDE2</color>
+    <color name="card_4">#D2C3D8</color>
+    <color name="card_5">#BDC1C6</color>
+    <color name="card_6">#F1F3F4</color>
+
+</resources>

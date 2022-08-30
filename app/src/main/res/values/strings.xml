@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">kidi2</string>
+    <string name="toast_message">hello world</string>
+    <string name="a_desc">hello world</string>
+    //strings feisal and yael
+    <string name="select_date">select date</string>
+    <string name="welcome_to_kidi">welcome to kidi</string>
+    <string name="lorem_ipsom_dollar_sit_map">lorem ipsom dollar sit map</string>
+    <string name="back">back</string>
+    <string name="todo">todo</string>
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+    <string name="button">Button</string>
+    <string name="courses">Courses</string>
+    <string name="update">Update</string>
+    <string name="course">Course</string>
+    <string name="add_course">Add Course</string>
+    <string name="admin_set_courses">Admin Set Courses</string>
+    <string name="delete">Delete</string>
+    <string name="app_title">Leader Profile</string>
+    <string name="leader_details">My Details</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="are_code">Code</string>
+    <string name="leader_phone">Phone</string>
+    <string name="street_address">Street Address</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="zip">Zip</string>
+    <string name="birthday">Birthday</string>
+    <string name="date">Select Date</string>
+    <string name="profile_pic">Add Profile Pic</string>
+    <string name="category_name">Category</string>
+    <string name="can_lead">Can lead</string>
+
+    <string-array name="start_col">
+        <item>Start</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+        <item>30/06/21</item>
+    </string-array>
+
+    <string-array name="category_col">
+        <item>Category</item>
+        <item>Animal</item>
+        <item>Arts</item>
+        <item>Spaces</item>
+        <item>Animal</item>
+        <item>Arts</item>
+        <item>Spaces</item>
+        <item>Animal</item>
+        <item>Arts</item>
+        <item>Spaces</item>
+        <item>Animal</item>
+        <item>Arts</item>
+        <item>Spaces</item>
+    </string-array>
+
+    <string-array name="course_col">
+        <item>Course</item>
+        <item>earth</item>
+        <item>dog</item>
+        <item>painting</item>
+        <item>earth</item>
+        <item>dog</item>
+        <item>painting</item>
+        <item>earth</item>
+        <item>dog</item>
+        <item>painting</item>
+        <item>earth</item>
+        <item>dog</item>
+        <item>painting</item>
+    </string-array>
+    <string name="title_activity_leaders">Leaders</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="back_to_2">back to 2</string>
+
+    <string name="date_time">select date and time</string>
+    <string name="back_label">Back</string>
+    <string name="choose_day">Day</string>
+    <string name="choose_month">Month</string>
+    <string name="choose_year">Year</string>
+    <string name="upload"><font>Add kids Picture
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        </font>
+        <u><font>Upload image</font></u>&#160;</string>
+   <string name="BASE_URL">http://kidiback.herokuapp.com/</string>
+
+<!--     <string name="BASE_URL"> http://10.0.2.2:7010/</string>-->
+    <string name="search_by_username">Search by username</string>
+    <string name="leader_management">Leader Management</string>
+    <string name="add_leader">Add leader</string>
+</resources>

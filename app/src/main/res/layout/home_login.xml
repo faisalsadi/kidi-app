@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeloginlayoutfragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4e7fe7"
+    android:orientation="vertical"
+    tools:context=".HomeLogin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/kidiT"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_marginLeft="120dp"
+            android:gravity="center"
+            android:text="KIDI"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@id/userImage"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/userImage"
+            android:layout_width="49dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#4e7fe7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/kidiT"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bitmap" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/myrect2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/navibarhomelogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/funT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fun we plan"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/activityButtonHomeID"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/myrect4"
+                app:srcCompat="@drawable/activity"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/addButtonHomeID"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/myrect5"
+                app:srcCompat="@android:drawable/ic_input_add"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:orientation="vertical">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+
+                android:clipChildren="false"
+                android:clipToPadding="false"
+
+
+                >
+
+            </androidx.viewpager2.widget.ViewPager2>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom|center"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/viewAllActiveHomeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:foregroundGravity="right"
+            android:gravity="right"
+            android:text="view all" />
+
+        <TextView
+            android:id="@+id/funwehadText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Fun we had"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:orientation="vertical">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager2"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+
+                android:clipChildren="false"
+                android:clipToPadding="false" />
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout2"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom|center"
+                app:tabBackground="@drawable/tab_selector_completed"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/viewAllCompletedHomeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:gravity="right"
+            android:text="view all" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navibarhomelogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:itemIconTint="@drawable/navibarselected"
+        app:itemTextColor="@drawable/navibarselected"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        app:menu="@menu/navimenu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

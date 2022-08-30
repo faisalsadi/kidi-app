@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidi2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.kidi2.LeaderPerCourse"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.ChatLeader"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.Notifications"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.AdminUpdateCourse"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.LeaderFirstLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.AdminSetLeader"
+            android:exported="true" /> <!-- ACTIVITIES -->
+        <activity
+            android:name="com.example.kidi2.ForthParentReg"
+            android:exported="true" > <!-- ACTIVITIES -->
+
+        </activity> <!-- FIRST SCREEN -->
+        <activity
+            android:name="com.example.kidi2.FirstScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- HOME LOGIN -->
+        <activity
+            android:name="com.example.kidi2.HomeLogin"
+            android:exported="true" /> <!-- KID NAME -->
+        <activity
+            android:name="com.example.kidi2.KidName"
+            android:exported="true" /> <!-- ACTIVITY -->
+        <activity
+            android:name="com.example.kidi2.Activity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.LogInScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.ThirdParentRegActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.Addactivity"
+            android:exported="true" /> <!-- feisal and yael activities -->
+        <activity
+            android:name="com.example.kidi2.AdminSetCourse"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.AdminAddCourse"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.FirstParentReg"
+            android:exported="true" /> <!-- muhanad activities -->
+        <activity
+            android:name="com.example.kidi2.FirstParentRegReal"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.AdminMainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.LinksActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.webViewBrowser"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.ParentProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.AdminAddLeader"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.AddKidActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.kidi2.AdminSetUser"
+            android:exported="true" />
+    </application>
+
+</manifest>
